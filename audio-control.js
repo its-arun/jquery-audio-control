@@ -7,7 +7,7 @@ var app = {
     bg_music: new Audio(),
 };
 jQuery(document).ready( function($) {
-	app.bg_music.src = "http://www.noiseaddicts.com/samples_1w72b820/3724.mp3"; //add your music source here
+    app.bg_music.src = "http://www.noiseaddicts.com/samples_1w72b820/3724.mp3"; //add your music source here
     app.bg_music.autoplay = false; //Want audio be to played automatically when script is called?
     app.bg_music.volume = 0.50; //Volume controller 0-1
 });
